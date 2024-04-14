@@ -1,7 +1,7 @@
 "# concrete_cracks_detection" 
 inside concrete_cracks_detection you should build the file structure shown 
-$./tree-md
-#tree
+$./tree-md .
+#Folder tree
 .
   *[concrete_cracks_detection](./concrete_cracks_detection)
      * [content](./concrete_cracks_detection/content)
