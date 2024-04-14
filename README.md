@@ -12,8 +12,8 @@ Otherwise just place the archive folder you get in your google drive and use the
 
 
 
-Note that using the settings below :
- Define the split ratio-- 
+Note that using the settings :
+  the split ratio-- 
 train_ratio = 0.05
 val_ratio = 0.02
 test_ratio = 0.93
@@ -26,11 +26,11 @@ history = model.fit(
     epochs=5,
 )
 
-is just meant to make the code work quickly in resouce constrained settings and would not produce a great model
+is just meant to make the code work quickly in resouce constrained settings and would not produce a great model.
 
-with adequate resources try with : 
+With adequate resources try with : 
 
- Define the split ratio (e.g., 70% train, 15% validation, 15% test--- playing with 0.05. 0.02 and 0.93)
+ the split ratio (e.g., 70% train, 15% validation, 15% )
 train_ratio = 0.7
 val_ratio = 0.15
 test_ratio = 0.15
