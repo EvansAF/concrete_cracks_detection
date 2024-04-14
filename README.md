@@ -13,13 +13,13 @@ Otherwise just place the archive folder you get in your google drive and use the
 
 
 Note that using the settings below :
-# Define the split ratio 
+ Define the split ratio-- 
 train_ratio = 0.05
 val_ratio = 0.02
 test_ratio = 0.93
 
 
-And in # Test Performance
+Test Performance --
 history = model.fit(
     ds_train,
     validation_data=ds_valid,
@@ -30,13 +30,13 @@ is just meant to make the code work quickly in resouce constrained settings and 
 
 with adequate resources try with : 
 
-# Define the split ratio (e.g., 70% train, 15% validation, 15% test--- playing with 0.05. 0.02 and 0.93)
+ Define the split ratio (e.g., 70% train, 15% validation, 15% test--- playing with 0.05. 0.02 and 0.93)
 train_ratio = 0.7
 val_ratio = 0.15
 test_ratio = 0.15
 
 and Test Performance
-# epochs=50
+with epochs=50
 history = model.fit(
     ds_train,
     validation_data=ds_valid,
